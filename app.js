@@ -1,10 +1,9 @@
-console.log("here i am!");
-
 $(document).ready(function() {
-  $('#butt').click(function(){
-    alert("you clicked me!");
+
+  $('.navbar-right a').click(function() {
+    $('.navbar-right a.active').removeClass('active');
+    $(this).addClass('active');
+
   });
-
-
 
 })
